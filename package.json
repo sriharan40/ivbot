@@ -2,7 +2,7 @@
   "name": "ivr-phone-tree-node",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "export NODE_ENV=test && mocha test"
   },
   "description": "Create an IVR phone tree with node and Twilio.",
