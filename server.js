@@ -9,6 +9,6 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/xml'});
     res.end(twiml.toString());
 
-}).listen((5009), () => console.log("Server listening"));
+}).listen(process.env.PORT || 5000) => console.log("Server listening"));
 
 console.log('TwiML servin\' server running at http://127.0.0.1:1337/');
